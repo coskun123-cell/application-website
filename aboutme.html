@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
+  <body>
+    <label class="mode-control">
+      <input id="mode-button" type="checkbox" />
+      <span
+        ><img src="images/moon-svgrepo-com.svg" width="12px" height="12px" />
+        Dark Mode</span
+      >
+      <span
+        ><img src="images/sun-svgrepo-com.svg" width="12px" height="12px" />
+        Light Mode</span
+      >
+    </label>
+    <div class="header">
+      <div class="logo img-center">
+        <img src="images/logo.svg" />
+      </div>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="aboutme.html" class="active">About me</a>
+        <a href="myhobbies.html">My Hobbies</a>
+        <a href="podcasts.html">Podcasts</a>
+        <a href="videos.html">Videos</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars">Menu</i>
+        </a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-1 col-s-12"></div>
+      <div class="col-3 col-s-12 p50">
+        <img
+          class="img-responsive my-img-shadow"
+          src="images/coskun-cabuk-istanbul.jpg"
+          alt="Web Developer Coskun Cabuk"
+        />
+      </div>
+      <div class="col-7 col-s-12 m20">
+        <h1 class="private_title">About Me!</h1>
+        <p>
+          I am a 41-year-old junior web developer candidate. I have an
+          experience in working effectively as a part of a team, have
+          self-discipline to achieve my goals, firmly believe that have a strong
+          skill in Maths and analytical thinking due to my formal education. I
+          was introduced to the idea of learning web developing by a close
+          friend last summer. Through our conversations, I have become more and
+          more interested and grown passion for web development and started
+          learning it on online platforms by watching videos based on
+          JavaScript, CSS and HTML. Now, I feel fully committed to learn web
+          development and strongly believe that I will show great success in the
+          sector if I am offered a training opportunity. I am looking for a
+          suitable developer position with an exciting and innovative company
+          that offers me this opportunity for my progress in Web Development.
+        </p>
+      </div>
+
+      <div class="col-1 col-s-12"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-1 col-s-12"></div>
+      <div class="col-3 col-s-12">
+        <img
+          class="img-responsive my-img-shadow"
+          src="images/coskun-cabuk-developer.jpg"
+          alt="Web Developer Coskun Cabuk"
+        />
+      </div>
+      <div class="col-7 col-s-12 m20">
+        <h1 class="private_title">Education</h1>
+        <p>
+          I hold degrees in economics as undergraduate (2004), MBA masters
+          (2010), MA in Political Theory/Philosophy (2013), PGCE Maths (2017)
+          and taught Maths at UK secondary schools.
+        </p>
+
+        <h1 class="private_title">Skills that I want to develop</h1>
+        <div id="tabContainer">
+          <input id="tab-1" type="radio" name="tab-group" checked="checked" />
+          <label for="tab-1">Html</label>
+
+          <input id="tab-2" type="radio" name="tab-group" />
+          <label for="tab-2">CSS</label>
+
+          <input id="tab-3" type="radio" name="tab-group" />
+          <label for="tab-3">JavaScript</label>
+
+          <div id="content">
+            <div id="content-1">
+              <h1>HTML</h1>
+              <p>
+                Hypertext Markup Language is the standard markup language for
+                documents designed to be displayed in a web browser. It can be
+                assisted by technologies such as Cascading Style Sheets and
+                scripting languages such as JavaScript.
+              </p>
+            </div>
+
+            <div id="content-2">
+              <h1>CSS</h1>
+              <p>
+                Cascading Style Sheets is a style sheet language used for
+                describing the presentation of a document written in a markup
+                language such as HTML. CSS is a cornerstone technology of the
+                World Wide Web, alongside HTML and JavaScript.
+              </p>
+            </div>
+
+            <div id="content-3">
+              <h1>JAVASCRIPT</h1>
+              <p>
+                JavaScript, often abbreviated as JS, is a programming language
+                that conforms to the ECMAScript specification. JavaScript is
+                high-level, often just-in-time compiled, and multi-paradigm. It
+                has curly-bracket syntax, dynamic typing, prototype-based
+                object-orientation, and first-class functions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-1 col-s-12"></div>
+    </div>
+
+    <div class="footer">© Copyright By Coskun Cabuk | 2021</div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>

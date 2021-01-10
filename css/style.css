@@ -503,3 +503,7 @@ input.visible {
     text-align: left;
   }
 }
+.img-freeCodeCamp {
+  height: 40px;
+  width: 40px;
+}
